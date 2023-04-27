@@ -20,7 +20,7 @@ def turn_right():
 
 def turn_left():
     new_heading=tim.heading() + 5
-    tim.seth eading(new_heading)
+    tim.setheading(new_heading)
 
 def move_clockwise():
     tim.circle(50)
